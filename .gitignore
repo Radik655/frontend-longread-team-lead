@@ -1,0 +1,13 @@
+ # macOS
+ .DS_Store
+
+ # Node/npm (если вдруг появятся тулзы для разработки)
+ node_modules/
+ npm-debug.log*
+ package-lock.json
+
+ # IDE / редакторы
+ .vscode/
+ .idea/
+ .history/
+

@@ -1,0 +1,151 @@
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   margin: 0;
+   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+   line-height: 1.6;
+   color: #111827;
+   background-color: #f3f4f6;
+ }
+ 
+ img {
+   max-width: 100%;
+   display: block;
+ }
+ 
+ .container {
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 0 16px;
+ }
+ 
+ /* Header */
+ 
+ .site-header {
+   background: linear-gradient(135deg, #2563eb, #1d4ed8);
+   color: #ffffff;
+   padding: 32px 0;
+   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.35);
+ }
+ 
+ .site-header h1 {
+   margin: 0 0 8px;
+   font-size: 2.1rem;
+ }
+ 
+ .site-header .subtitle {
+   margin: 0;
+   opacity: 0.95;
+ }
+ 
+ /* Sections */
+ 
+ .profile-section {
+   padding: 40px 0;
+   background-color: #ffffff;
+ }
+ 
+ .profile-section:nth-of-type(2n) {
+   background-color: #e5e7eb;
+ }
+ 
+ .profile {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+   align-items: flex-start;
+ }
+ 
+ .profile-photo {
+   flex: 0 0 220px;
+   max-width: 220px;
+ }
+ 
+ .profile-photo img {
+   border-radius: 16px;
+   object-fit: cover;
+   height: 260px;
+   width: 100%;
+   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.3);
+ }
+ 
+ .profile-content {
+   flex: 1 1 260px;
+ }
+ 
+ .profile-content h2 {
+   margin-top: 0;
+   margin-bottom: 6px;
+   font-size: 1.6rem;
+ }
+ 
+ .profile-role {
+   margin: 0 0 4px;
+   font-weight: 600;
+   color: #1f2933;
+ }
+ 
+ .profile-group {
+   margin: 0 0 16px;
+   font-weight: 500;
+   color: #4b5563;
+ }
+ 
+ .profile-about {
+   margin-bottom: 16px;
+ }
+ 
+ .profile-list {
+   margin: 0 0 8px;
+   padding-left: 20px;
+ }
+ 
+ .profile-list li {
+   margin-bottom: 4px;
+ }
+ 
+ h3 {
+   margin-top: 16px;
+   margin-bottom: 8px;
+   font-size: 1.1rem;
+ }
+ 
+ /* Footer */
+ 
+ .site-footer {
+   background-color: #111827;
+   color: #d1d5db;
+   padding: 24px 0;
+   font-size: 0.9rem;
+   text-align: center;
+   margin-top: 16px;
+ }
+ 
+ .site-footer p {
+   margin: 4px 0;
+ }
+ 
+ /* Responsive */
+ 
+ @media (max-width: 768px) {
+   .profile {
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+   }
+ 
+   .profile-content {
+     width: 100%;
+     text-align: left;
+   }
+ 
+   .profile-photo {
+     max-width: 260px;
+   }
+ }
+ 
