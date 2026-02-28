@@ -8,6 +8,7 @@
    margin: 0;
    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
    line-height: 1.6;
+  font-size: 17px;
    color: #111827;
    background-color: #f3f4f6;
  }
@@ -46,8 +47,10 @@
  /* Sections */
  
  .profile-section {
-   padding: 40px 0;
+  padding: 56px 0;
    background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
  }
  
  .profile-section:nth-of-type(2n) {
